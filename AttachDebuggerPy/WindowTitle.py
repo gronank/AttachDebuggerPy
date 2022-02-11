@@ -14,8 +14,6 @@ def enum_windows_proc(wnd, param):
                 if data is not None:
                     data.append(text)
                     return
-                #else:
-                    #print("%08X - %s" % (wnd, text))
 
 
 def enum_process_windows(pid=None):
